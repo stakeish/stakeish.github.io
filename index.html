@@ -4,13 +4,85 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Shota Takeishi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #000000;
+        background: #ffffff;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+
+      .page {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+        padding: 24px 0 36px 24px;
+      }
+
+      .hero {
+        padding: 0 0 12px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin: 0 0 6px;
+        font-weight: 600;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 12px 0 6px;
+      }
+
+      h3 {
+        font-size: 1.05rem;
+        margin: 12px 0 4px;
+      }
+
+      ul {
+        margin: 0 0 6px;
+        padding-left: 18px;
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 12px;
+      }
+
+      .links li {
+        margin: 0;
+      }
+
+      a {
+        color: #1a0dab;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      a:visited {
+        color: #1a0dab;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding: 20px 0 28px 16px;
+        }
+      }
+    </style>
   </head>
   <body>
     <main class="page">
